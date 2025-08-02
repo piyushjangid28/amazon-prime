@@ -1,0 +1,241 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    margin: auto;
+    justify-items:center;
+}
+.navbarmain{
+background: rgba(23, 29, 42, 0.53);
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.1px);
+-webkit-backdrop-filter: blur(9.1px);
+
+
+
+    height: 60px;
+    width: 93%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 0px 20px;
+}
+.logo img{
+    height: 20px;
+    margin-top: 4px;
+    width: 100px;
+}
+.list ul{
+    display: flex;
+    list-style: none;
+    margin: 0px 380px 0px 0px;
+    font-weight: 600;
+}
+.list ul li{
+    padding-left: 40px;
+    color: white;
+}
+.list ul li i{
+    color: white;
+}
+.list2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.logo1{
+    padding-right: 20px;
+}
+.bn2{
+    background-color: transparent;
+    color: white;
+    border: none;
+    display: block;
+    position: relative;
+
+}
+.bn1{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(24, 138, 246);
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.banner1{
+    height: auto;
+    width: 100%;
+        height: 670px;
+    margin: auto;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+  background: #000000;
+background: linear-gradient(90deg, rgba(0, 0, 0, 1) 47%, rgba(12, 91, 250, 1) 100%);
+}
+.ban1{
+    height: 500px;
+    width: 50%;
+    color: white;
+}
+.ban1 button{
+    height: 65px;
+    width: 240px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.ban2{
+    height: 500px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.gallery1{
+    display: flex;
+ height: 230px;
+ background-color: red;
+ width: 240px;
+ border-radius: 20px;
+ border: 4px solid blue;
+}
+.gallery1 img{
+ height: 100%;
+ width: 100%;
+ border-radius: 15px;
+}
+.ban1main{
+    margin-top: 40px;
+    padding-left: 70px;
+}
+.banner2{
+    background-image: url(images/banner2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.banner3{
+    height: 670px;
+    width: 100%;
+    background-color: black;
+}
+.banner3main{
+    height: 670px;
+    width: 93%;
+    background-color: black;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.ban11{
+    margin-top: 70px;
+    height: 500px;
+    width: 50%;
+    color: white;
+}
+.ban12{
+    height: 500px;
+        margin-top: 70px;   
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.gallery2{
+    display: flex;
+ height: 160px;
+ width: 220px;
+ border-radius: 20px;
+}
+.gallery2 img{
+ height: 100%;
+ width: 100%;
+ border-radius: 15px;
+}
+.footermain{
+    height: 135px;
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+    align-content: center;
+    justify-items: center;
+}
+.footermain img{
+    height: 32px;
+    width: 100px;
+    display: block;
+}
+.footermain ul {
+display: flex;
+}
+.footermain ul p{
+    padding-left: 20px;
+    color: rgb(125, 165, 239)
+}
+.footermain p{
+    color: rgb(108, 178, 202);
+    padding-top: 8px;
+}
+
+.banner2 button{
+    margin: 40px 0px 0px 70px;
+    height: 65px;
+    border: none;
+    width: 130px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.drop{
+         /* From https://css.glass */
+background: rgba(31, 25, 25, 0.7);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(15px);
+-webkit-backdrop-filter: blur(15px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+    
+    
+    position: absolute;
+    padding: 0px 50px 0px 50px;
+    margin-top: 20px;
+    list-style: none;
+    left: -180%;
+    visibility: hidden;   
+}
+.bn2:hover .drop{
+    visibility: visible;
+    margin-top: 50%;
+    display: block;
+    
+}
+.drop li{
+    padding-bottom: 10px;
+}
+.bn2 p{
+    display: block;
+    top: 500px;
+}
